@@ -1,0 +1,19 @@
+---
+title: "HPA_Quarto"
+author: "Josh Liu"
+---
+How do the summed counts of regionally elevated genes across the
+cerebral cortex, basal ganglia, thalamus and hypothalamus compare
+between humans, pigs and mice?
+```{r}
+# Human
+sum(180, 83, 57, 110)
+
+# Pig
+sum(109, 157, 31, 45)
+
+# Mouse
+sum(55, 185, 60, 98)
+```
+Humans had the highest summed count, with 430, compared with
+398 in mice and 342 in pigs.
